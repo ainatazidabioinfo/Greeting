@@ -1,16 +1,24 @@
 ## About Me
 
-Hi! I'm a recent graduate with a Master's degree in Bioinformatics and Biostatistics, with a strong interest in genomics, transcriptomics, and computational biology.
+MSc in Bioinformatics & Biostatistics (Nantes Université, 2026), with a background in biology.
+I build reproducible workflows for sequencing data, and I care about what happens upstream
+of the analysis: annotations, identifiers, quality control.
 
-During my Master's studies, I gained research experience in two different areas of bioinformatics:
+### Experience
+- **Single-cell transcriptomics — Inserm MOBIDIC (MSc 2 internship):** Snakemake pipeline on a
+  SLURM cluster (STARsolo, Stellarscope, MATES) for locus-specific quantification of
+  transposable elements in follicular lymphoma scRNA-seq data.
+- **Environmental DNA metabarcoding — INRAE DYNAFOR (MSc 1 internship):** processing of
+  Illumina MiSeq data to monitor wild bees (fastp, VSEARCH, Swarm, BLASTn), with per-step
+  quality metrics extracted from tool logs.
 
-- **Environmental DNA metabarcoding at INRAE:** I worked on Illumina sequencing data to study wild pollinators, using sequence quality control, clustering, and taxonomic assignment methods.
-- **Single-cell transcriptomics at INSERM:** I investigated the locus-specific expression of transposable elements in follicular lymphoma using scRNA-seq data, bioinformatics workflows, and high-performance computing environments.
+### Projects
+- [repeatmasker-annotation](https://github.com/ainatazidabioinfo/repeatmasker-annotation) —
+  builds consistent, uniquely identified TE annotations for two quantification tools, with tests.
+- *Nanopore assembly of Staphylococcus aureus genomes and AMR prediction* — in progress
+  (Nextflow, containers).
 
-These experiences strengthened my interest in developing reproducible computational approaches to answer biological questions.
+### Tools
+Bash · Linux · SLURM · Snakemake · Python (pandas) · R (Seurat, Bioconductor) · Git · conda
 
-I am currently improving my skills in Python, R, and Git through practical bioinformatics projects.
-
-My goal is to contribute to scientific research as a bioinformatics engineer and continue developing my expertise in computational genomics.
-
-On this GitHub profile, I share academic projects, bioinformatics analyses, and programming projects that reflect my scientific experience and technical development.
+📫 [LinkedIn](https://www.linkedin.com/in/ainatazida)
