@@ -13,9 +13,9 @@ of the analysis: annotations, identifiers, quality control.
   quality metrics extracted from tool logs.
 
 ### Projects
-- [repeatmasker-annotation](https://github.com/ainatazidabioinfo/repeatmasker-annotation) —
+- [repeatmasker-annotation](https://github.com/ainatazidabioinfo/repeatmasker-annotation) -
   builds consistent, uniquely identified TE annotations for two quantification tools, with tests.
-- *Nanopore assembly of Staphylococcus aureus genomes and AMR prediction* — in progress
+- *Nanopore assembly of Staphylococcus aureus genomes and AMR prediction* - in progress
   (Nextflow, containers).
 
 ### Tools
