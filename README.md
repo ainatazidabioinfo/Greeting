@@ -1,24 +1,27 @@
-## About Me
+## À propos
 
-MSc in Bioinformatics & Biostatistics (Nantes Université, 2026), with a background in biology.
-I build reproducible workflows for sequencing data, and I care about what happens upstream
-of the analysis: annotations, identifiers, quality control.
+Master Bioinformatique-Biostatistique (Nantes Université, 2026), après une formation initiale en biologie.
+Je construis des workflows reproductibles pour les données de séquençage, avec une attention particulière
+à ce qui se joue en amont de l'analyse : annotations, identifiants, contrôle qualité.
 
-### Experience
-- **Single-cell transcriptomics - Inserm MOBIDIC (MSc 2 internship):** Snakemake pipeline on a
-  SLURM cluster (STARsolo, Stellarscope, MATES) for locus-specific quantification of
-  transposable elements in follicular lymphoma scRNA-seq data.
-- **Environmental DNA metabarcoding - INRAE DYNAFOR (MSc 1 internship):** processing of
-  Illumina MiSeq data to monitor wild bees (fastp, VSEARCH, Swarm, BLASTn), with per-step
-  quality metrics extracted from tool logs.
+### Expériences
+- **Transcriptomique single-cell - Inserm MOBIDIC (stage de Master 2) :** pipeline Snakemake sur cluster
+  SLURM (STARsolo, Stellarscope, MATES) pour la quantification locus-spécifique des éléments
+  transposables dans des données scRNA-seq de lymphome folliculaire.
+- **Métabarcoding d'ADN environnemental - INRAE DYNAFOR (stage de Master 1) :** traitement de données
+  Illumina MiSeq pour le suivi des abeilles sauvages (fastp, VSEARCH, Swarm, BLASTn), avec des métriques
+  de qualité extraites des journaux d'exécution à chaque étape.
 
-### Projects
+### Projets
 - [repeatmasker-annotation](https://github.com/ainatazidabioinfo/repeatmasker-annotation) -
-  builds consistent, uniquely identified TE annotations for two quantification tools, with tests.
-- *Nanopore assembly of Staphylococcus aureus genomes and AMR prediction* - in progress
-  (Nextflow, containers).
+  construction d'annotations d'éléments transposables cohérentes, avec un identifiant unique par locus,
+  pour deux outils de quantification ; tests inclus.
+- [staph-amr-nanopore-nf](https://github.com/ainatazidabioinfo/staph-amr-nanopore-nf) -
+  assemblage de génomes de *Staphylococcus aureus* à partir de lectures Nanopore et prédiction de la
+  résistance aux antibiotiques : audit des données et conception du pipeline terminés, implémentation
+  Nextflow en cours.
 
-### Tools
+### Outils
 Bash · Linux · SLURM · Snakemake · Python (pandas) · R (Seurat, Bioconductor) · Git · conda
 
 📫 [LinkedIn](https://www.linkedin.com/in/ainatazida)
